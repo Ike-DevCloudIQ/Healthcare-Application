@@ -39,9 +39,43 @@ export default function Home() {
             <br />
             Consultation Notes
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
             AI-powered assistant that generates professional summaries, action items, and patient communications from your consultation notes
           </p>
+
+          {/* Features Grid */}
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-xl blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
+              <div className="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 backdrop-blur-sm">
+                <div className="text-3xl mb-4">📋</div>
+                <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Professional Summaries</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">
+                  Generate comprehensive medical record summaries from your notes
+                </p>
+              </div>
+            </div>
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-green-600 rounded-xl blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
+              <div className="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 backdrop-blur-sm">
+                <div className="text-3xl mb-4">✅</div>
+                <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Action Items</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">
+                  Clear next steps and follow-up actions for every consultation
+                </p>
+              </div>
+            </div>
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
+              <div className="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 backdrop-blur-sm">
+                <div className="text-3xl mb-4">📧</div>
+                <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Patient Emails</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">
+                  Draft clear, patient-friendly email communications automatically
+                </p>
+              </div>
+            </div>
+          </div>
           
           {/* Pricing Preview */}
           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg rounded-xl p-6 max-w-sm mx-auto mb-8">
