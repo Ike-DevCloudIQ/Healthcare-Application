@@ -905,22 +905,45 @@ In this project, we used client-side components because we needed browser featur
 
 ## Screenshots
 
-### Deployment Process
-![Deployment Terminal](screenshots/deployment-terminal.png)
+### Landing Page
+![MediNotes Pro Landing Page](screenshots/App-Sigin.png)
 
-**Successful deployment to production** - This screenshot demonstrates the complete Git workflow and successful deployment to Vercel. It shows:
-- All files committed and pushed to the GitHub repository (Ike-DevCloudIQ/SaaS)
-- Vercel's automatic deployment triggered from the Git push
-- Production URL generated and live at `https://saas-4p6xjwwb8-ikenna-ubahs-projects.vercel.app`
-- The full-stack application deployed with both Next.js frontend and Python FastAPI backend running seamlessly on Vercel's platform
+**Healthcare Consultation Assistant Landing Page** - This screenshot showcases the modern, professional landing page for MediNotes Pro. Key features displayed:
+- Clean, healthcare-focused branding with "Transform Your Consultation Notes" headline
+- Three feature cards highlighting core functionality:
+  - 📋 Professional Summaries - Generate comprehensive medical record summaries
+  - ✅ Action Items - Clear next steps and follow-up actions
+  - 📧 Patient Emails - Draft patient-friendly email communications
+- Premium Subscription pricing display ($10/month)
+- Secure authentication with Clerk integration
+- Responsive design built with Tailwind CSS
+- Deployed and running on both Vercel and AWS App Runner
 
-### Live Application
-![Business Idea Generator App](screenshots/business-idea-generator.png)
+### AWS Deployment
+![AWS App Runner Service](screenshots/App-runner.png)
 
-**AI-powered Business Idea Generator in action** - This screenshot showcases the completed SaaS application generating real-time AI business ideas. Key features demonstrated:
-- Clean, modern UI built with Next.js, TypeScript, and Tailwind CSS
-- Real-time AI response streaming from OpenAI's GPT model
-- Beautiful Markdown rendering with the Tailwind Typography plugin
-- Full-stack integration: React frontend communicating with FastAPI backend
-- Production-ready application generating detailed business ideas including value propositions and core features
-- Example output: "FlowAgent" - an AI-powered no-code platform for SMB automation, showcasing the app's ability to generate comprehensive, market-ready business concepts
+**Production deployment on AWS App Runner** - This screenshot demonstrates the Healthcare Consultation Assistant running on AWS infrastructure:
+- Service status: Running with green checkmark (✓)
+- Public endpoint: `https://3w5ndfnpvy.eu-west-1.awsapprunner.com`
+- Containerized deployment using Docker
+- Deployed in EU West (Ireland) region
+- Automatic scaling and load balancing enabled
+- Health checks monitoring application status
+- Full integration with AWS ECR for container registry
+- Professional cloud infrastructure ready for production healthcare workloads
+
+### Consultation Summary
+![AI-Generated Medical Summary](screenshots/App-summary.png)
+
+**AI-powered consultation summary in action** - This screenshot showcases the core functionality of the application generating real-time medical documentation:
+- Patient information: Austin Ikenna, visit date 2026-02-15
+- Consultation notes input: "Complained of a headache. I told him to take a tylenol"
+- AI-generated outputs streaming in real-time:
+  - **Summary of visit for the doctor's records** - Professional medical documentation
+  - **Next steps for the doctor** - Actionable follow-up items
+  - **Draft email to patient** - Patient-friendly communication
+- Clean, accessible form design with date picker
+- Real-time markdown rendering of AI responses
+- Secure authentication protecting patient data
+- Full-stack integration: Next.js frontend with FastAPI backend and OpenAI GPT model
+- Production-ready application helping doctors streamline documentation workflow

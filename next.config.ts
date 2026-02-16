@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',  // Export static HTML/JS files for AWS
+  images: {
+    unoptimized: true  // Required for static export
+  },
   reactStrictMode: true,
 };
 

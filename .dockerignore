@@ -1,0 +1,14 @@
+node_modules
+.next
+.env
+.env.local
+.git
+.gitignore
+README.md
+.DS_Store
+*.log
+.vercel
+dist
+build
+day4.md
+day5.md
